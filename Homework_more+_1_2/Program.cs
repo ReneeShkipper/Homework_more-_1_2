@@ -22,6 +22,10 @@ static int next(int a)
 {
 	int i = 1;
     int y = 1;
+	if (a <= 1) 
+	{ 
+		return 2; 
+	}
     while (prime(a+i) == false) 
     {
 		i++;
